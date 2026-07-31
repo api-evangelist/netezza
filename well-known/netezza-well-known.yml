@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+host: https://www.ibm.com
+note: >-
+  Netezza is delivered by IBM on www.ibm.com; the well-known surface probed is
+  IBM's corporate host. Netezza has no dedicated public API host of its own.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: netezza-security.txt
+- path: /.well-known/openid-configuration
+  status: 301
+  note: redirects to trailing-slash 404, no discovery document
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  note: redirects to trailing-slash 404, no discovery document
+- path: /.well-known/api-catalog
+  status: 301
+  note: redirects to trailing-slash 404, no discovery document
+- path: /.well-known/ai-plugin.json
+  status: 404

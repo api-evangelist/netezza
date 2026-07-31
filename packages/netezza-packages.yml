@@ -1,0 +1,47 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/IBM/nzpy
+packages:
+- language: python
+  registry: pypi
+  name: nzpy
+  url: https://pypi.org/project/nzpy/
+  repo: https://github.com/IBM/nzpy
+  install: pip install nzpy
+  version: 1.17.6
+  official: true
+  description: >-
+    Pure-Python IBM Netezza driver that complies with DB-API 2.0. Connects
+    Python applications to Netezza Performance Server (port 5480), with SSL/TLS
+    security levels, transactions, all Netezza data types, and external-table
+    load/unload. Tested on Python 3.5+.
+- language: python
+  registry: pypi
+  name: nzpyida
+  url: https://pypi.org/project/nzpyida/
+  repo: https://github.com/IBM/nzpyida
+  install: pip install nzpyida
+  version: '1.2'
+  official: true
+  description: >-
+    IBM in-database analytics library for Netezza. Translates pandas-like
+    DataFrame syntax into SQL executed inside Netezza via an ODBC/JDBC/nzpy
+    connection, for custom ML/analytics execution in the database.
+- language: java
+  registry: ibm-fix-central
+  name: nzjdbc
+  url: https://www.ibm.com/docs/en/netezza?topic=dls-installing-configuring-jdbc
+  install: download nzjdbc.jar from IBM Fix Central
+  official: true
+  description: >-
+    Official IBM Netezza JDBC driver (nzjdbc.jar). Distributed via IBM Fix
+    Central / product install media rather than Maven Central.
+- language: c
+  registry: ibm-fix-central
+  name: netezza-odbc
+  url: https://www.ibm.com/docs/en/netezza?topic=icow-configuring-odbc-data-source-driver
+  install: download and run the IBM Netezza ODBC driver installer
+  official: true
+  description: >-
+    Official IBM Netezza ODBC driver, distributed via IBM (login required)
+    rather than a public package registry.

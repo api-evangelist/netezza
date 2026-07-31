@@ -1,0 +1,33 @@
+# Netezza (IBM Netezza Performance Server)
+
+> IBM Netezza Performance Server is a cloud-native data warehouse and analytics appliance for large-scale SQL analytics and in-database machine learning on structured data. It runs on IBM Cloud, AWS, and Microsoft Azure and within IBM Cloud Pak for Data. Netezza is consumed through SQL over standard database connectivity — the pure-Python nzpy DB-API 2.0 driver, JDBC (nzjdbc) and ODBC drivers, and the nzpyida in-database analytics library — rather than as a public REST API.
+
+## Product
+
+- [Netezza Performance Server](https://www.ibm.com/products/netezza): Product overview and editions.
+- [Getting started](https://www.ibm.com/docs/en/netezza?topic=data-getting-started): First steps with Netezza Performance Server.
+- [Pricing](https://www.ibm.com/products/netezza/pricing): Editions and pricing.
+
+## Docs
+
+- [IBM Netezza documentation](https://www.ibm.com/docs/en/netezza): Full product documentation.
+- [Netezza on IBM Cloud — connecting](https://cloud.ibm.com/docs/netezza?topic=netezza-connecting-overview): Connection and connectivity reference.
+- [Developer Network](https://www.ibm.com/docs/en/netezza?topic=i-netezza-performance-server-developer-network): Program for building applications on Netezza.
+
+## Developers
+
+- [IBM Developer — Netezza](https://developer.ibm.com/components/netezza-performance-server/): Articles and tutorials.
+- [Community](https://community.ibm.com/community/user/groups/community-home?CommunityKey=d9f9d5de-e89f-4a6a-84a0-31df8b81f182): IBM Netezza community group.
+
+## Client libraries
+
+- [nzpy (PyPI)](https://pypi.org/project/nzpy/): Official pure-Python DB-API 2.0 driver — `pip install nzpy`. Source: https://github.com/IBM/nzpy
+- [nzpyida (PyPI)](https://pypi.org/project/nzpyida/): Official in-database analytics library — `pip install nzpyida`. Source: https://github.com/IBM/nzpyida
+- [Netezza JDBC driver](https://www.ibm.com/docs/en/netezza?topic=dls-installing-configuring-jdbc): Official nzjdbc.jar via IBM Fix Central.
+- [Netezza ODBC driver](https://www.ibm.com/docs/en/netezza?topic=icow-configuring-odbc-data-source-driver): Official ODBC driver.
+
+## Security
+
+- [security.txt](https://www.ibm.com/.well-known/security.txt): IBM PSIRT disclosure contacts.
+- [IBM PSIRT / Security](https://www.ibm.com/trust/security-psirt): Product Security Incident Response Team.
+- [IBM on HackerOne](https://hackerone.com/ibm?type=team): Vulnerability disclosure program.
