@@ -1,16 +1,12 @@
 aid: netezza
 name: Netezza
-description: >-
-  IBM Netezza Performance Server is a cloud-native data warehouse and analytics
-  appliance for running large-scale SQL analytics and in-database machine
-  learning on structured data. Originally a standalone data-warehouse appliance
-  vendor acquired by IBM, Netezza is now delivered as Netezza Performance Server
-  on IBM Cloud, AWS, and Microsoft Azure and as part of IBM Cloud Pak for Data.
-  It is consumed primarily through SQL over standard database connectivity —
-  the pure-Python nzpy DB-API 2.0 driver, JDBC (nzjdbc) and ODBC drivers, and
-  the nzpyida in-database analytics library — rather than as a public REST API,
-  with a REST interface for backup/restore administration and a web console for
-  monitoring and administration.
+description: IBM Netezza Performance Server is a cloud-native data warehouse and analytics appliance for running
+  large-scale SQL analytics and in-database machine learning on structured data. Originally a standalone data-warehouse
+  appliance vendor acquired by IBM, Netezza is now delivered as Netezza Performance Server on IBM Cloud, AWS, and
+  Microsoft Azure and as part of IBM Cloud Pak for Data. It is consumed primarily through SQL over standard database
+  connectivity — the pure-Python nzpy DB-API 2.0 driver, JDBC (nzjdbc) and ODBC drivers, and the nzpyida in-database
+  analytics library — rather than as a public REST API, with a REST interface for backup/restore administration
+  and a web console for monitoring and administration.
 url: https://raw.githubusercontent.com/api-evangelist/netezza/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -33,7 +29,7 @@ accessModel:
 image: https://www.ibm.com/products/netezza
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-21'
 tags:
 - Company
 - Data Warehouse
@@ -61,6 +57,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: Ibm
+  x-relationship: acquisition
+  x-generated-by: ibm-family:2026-08-21
 - type: VulnerabilityDisclosure
   url: security/netezza-vulnerability-disclosure.yml
 - type: Security
@@ -98,3 +99,5 @@ x-enrichment:
   status: enriched
   artifacts_added: 6
   pass: local-v1
+x-parent: ibm
+x-relationship: acquisition
