@@ -47,7 +47,7 @@ tags:
 - Analytics
 - Database
 - SQL
-- Machine-Learning
+- Machine Learning
 - Big Data
 - Cloud Data Platform
 - IBM
@@ -61,6 +61,7 @@ tags_raw:
 - Big Data
 - Cloud Data Platform
 - IBM
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
