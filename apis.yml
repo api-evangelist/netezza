@@ -69,6 +69,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/netezza-plans-pricing.yml
 - type: ParentCompany
   url: https://apis.io/providers/ibm/
   name: Ibm
