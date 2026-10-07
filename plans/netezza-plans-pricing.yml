@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.ibm.com/products/netezza/pricing
+sources:
+- https://www.ibm.com/products/netezza/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Netezza is available on-premises with Cloud Pak for Data System. Pricing for IBM® Netezza®
+    Cloud Pak for Data System is based on the number of virtual processor cores (VPC).
+  managed_tier: Standard
+published: true
+note: SaaS hourly pricing plus TB-based data egress; on-premises priced per VPC with no number shown.
+  Free trial of USD 1,000 credits for up to 1 month with code TRYNPS1.
+plan_count: 3
+currency: USD
+plans:
+- name: Trial
+  price_text: Free
+  period: none
+  included_quota: USD 1,000 of free credits
+- name: Standard (Netezza Performance Server SaaS)
+  price_text: USD 3.73* per hour
+  price: 3.73
+  currency: USD
+  period: per-use
+  unit: hour (Netezza performance profile and storage)
+  overage: 'Data egress on AWS: USD 20.60*/TB to another AWS region; USD 92.70*/TB to internet or other
+    cloud providers. Azure: USD 20.60*/TB same continent; USD 51.50*/TB different continent; USD 90.13*/TB
+    other cloud providers or Internet'
+- name: Netezza Cloud Pak for Data System (on-premises)
+  price_text: Pricing for IBM® Netezza® Cloud Pak for Data System is based on the number of virtual processor
+    cores (VPC)
+  period: none
+  unit: virtual processor core (VPC)
