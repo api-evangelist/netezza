@@ -9,6 +9,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://developer.ibm.com/components/netezza-performance-server/articles/feed/",
+      "feed_url": "https://developer.ibm.com/components/netezza-performance-server/articles/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://github.com/IBM",
       "feed_url": "https://github.com/IBM",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 3,
+  "fetched": "2026-10-17T14:53:57Z"
 }
