@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Netezza is a company surfaced as a portfolio company of battery-ventures, matrix-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+IBM Netezza Performance Server is a cloud-native data warehouse and analytics appliance for running large-scale SQL analytics and in-database machine learning on structured data. Originally a standalone data-warehouse appliance vendor acquired by IBM, Netezza is now delivered as Netezza Performance Server on IBM Cloud, AWS, and Microsoft Azure and as part of IBM Cloud Pak for Data. It is consumed primarily through SQL over standard database connectivity — the pure-Python nzpy DB-API 2.0 driver, JDBC (nzjdbc) and ODBC drivers, and the nzpyida in-database analytics library — rather than as a public REST API, with a REST interface for backup/restore administration and a web console for monitoring and administration.
 
-Backed by: battery-ventures, matrix-partners
+**Areas:** Company · Data Warehouse · Analytics · Database · SQL · Machine Learning · Big Data · Cloud Data Platform · IBM
+
+## Netezza on APIs.io
+
+Everything profiled for Netezza is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/netezza/](https://apis.io/providers/netezza/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Netezza Domain Security](https://apis.io/security/netezza/netezza-domain-security/)
+- [Netezza Vulnerability Disclosure](https://apis.io/security/netezza/netezza-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Netezza Plans Pricing](https://apis.io/plans/netezza/netezza-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ibm.com/products/netezza)
+- [Documentation](https://www.ibm.com/docs/en/netezza)
+- [Getting started](https://www.ibm.com/docs/en/netezza?topic=data-getting-started)
+- [Pricing](https://www.ibm.com/products/netezza/pricing)
+- [Support](https://community.ibm.com/community/user/groups/community-home?CommunityKey=d9f9d5de-e89f-4a6a-84a0-31df8b81f182)
+- [Blog](https://developer.ibm.com/components/netezza-performance-server/articles/)
+- [Security](https://www.ibm.com/trust/security-psirt)
+- [GitHub](https://github.com/IBM)
+
+## API Evangelist rating
+
+**Kin Score 24.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 42.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/netezza/](https://apis.io/providers/netezza/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Netezza: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/netezza/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
